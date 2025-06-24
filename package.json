@@ -1,0 +1,16 @@
+{
+  "name": "angular-ui-library",
+  "version": "1.0.0",
+  "module": "fesm2022/angular-ui-library.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./fesm2022/angular-ui-library.mjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "peerDependencies": {
+    "@angular/core": "^17.0.0",
+    "@angular/common": "^17.0.0"
+  }
+}
