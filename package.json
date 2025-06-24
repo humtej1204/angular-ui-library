@@ -2,6 +2,13 @@
   "name": "angular-ui-library",
   "version": "0.0.0",
   "main": "dist/ui-components/fesm2022/ui-components.mjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./fesm2022/angular-ui-library.mjs",
+      "types": "./index.d.ts"
+    }
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
