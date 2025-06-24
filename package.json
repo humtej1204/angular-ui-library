@@ -5,7 +5,7 @@
   "typings": "index.d.ts",
   "exports": {
     ".": {
-      "import": "./fesm2022/angular-ui-library.mjs",
+      "default": "./fesm2022/angular-ui-library.mjs",
       "types": "./index.d.ts"
     }
   },
